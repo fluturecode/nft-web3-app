@@ -1,13 +1,18 @@
 import { Header } from './components/Header';
+import styled from 'styled-components';
 
-const HeaderContainter = styled.div`
+const Container = styled.div`
 background-color: black;
+padding: 20px;
+min-height: 100vh;
+max-width: 100vw;
 `
-function App() {
+
+const App = () => {
   return (
-    <HeaderContainter>
+    <Container>
       <Header/>
-    </HeaderContainter>
+    </Container>
   );
 }
 
