@@ -9,7 +9,7 @@ const HeaderContainer = styled.div`
 export const Header = () => {
   return (
     <HeaderContainer>
-      Header
+     <img src={apeLogo} alt=''/>
     </HeaderContainer>
   )
 };
